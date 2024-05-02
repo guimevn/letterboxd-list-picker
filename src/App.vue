@@ -1,18 +1,16 @@
-<script setup>
-    // import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-    <header>
-        <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-    </header>
-
-    <main>
-        <div>
-            Hello, W0rld!
-        </div>
-    </main>
+    <Input />
 </template>
+
+<script>
+    import Input from './components/Input.vue'
+    export default {
+        name: 'App',
+        components: {
+            Input
+        }
+    }
+</script>
 
 <style scoped>
     header {
